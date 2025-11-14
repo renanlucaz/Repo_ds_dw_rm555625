@@ -1,0 +1,28 @@
+{
+	"name": "pesquisa_trabalho_futuro",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ORIGEM",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "pesquisa_trabalho_futuro.csv",
+				"container": "origemrm555625"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Id_Pesquisa;Data_Pesquisa;Satisfacao_Atual;Equilibrio_Vida_Trabalho;Saude_Mental_Status",
+				"type": "String"
+			}
+		]
+	}
+}
