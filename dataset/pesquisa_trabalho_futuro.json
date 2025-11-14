@@ -13,7 +13,7 @@
 				"fileName": "pesquisa_trabalho_futuro.csv",
 				"container": "origemrm555625"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""

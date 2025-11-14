@@ -13,7 +13,7 @@
 				"fileName": "trabalho_futuro_caracteristicas.csv",
 				"container": "origemrm555625"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
